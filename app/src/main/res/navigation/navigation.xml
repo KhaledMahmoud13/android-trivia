@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/titleFragment"
-        android:name="com.example.testapp.TitleFragment"
+        android:name="com.khaled.androidtrivia.TitleFragment"
         android:label="Title">
         <action
             android:id="@+id/action_titleFragment_to_gameFragment"
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="com.example.testapp.GameFragment"
+        android:name="com.khaled.androidtrivia.GameFragment"
         android:label="GameFragment">
         <action
             android:id="@+id/action_gameFragment_to_gameOverFragment"
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameOverFragment"
-        android:name="com.example.testapp.GameOverFragment"
+        android:name="com.khaled.androidtrivia.GameOverFragment"
         android:label="GameOverFragment">
         <action
             android:id="@+id/action_gameOverFragment_to_gameFragment"
@@ -51,7 +51,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameWonFragment"
-        android:name="com.example.testapp.GameWonFragment"
+        android:name="com.khaled.androidtrivia.GameWonFragment"
         android:label="GameWon">
         <action
             android:id="@+id/action_gameWonFragment_to_gameFragment"
@@ -66,12 +66,12 @@
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.testapp.AboutFragment"
+        android:name="com.khaled.androidtrivia.AboutFragment"
         android:label="about"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/rulesFragment"
-        android:name="com.example.testapp.RulesFragment"
+        android:name="com.khaled.androidtrivia.RulesFragment"
         android:label="fragment_rules"
         tools:layout="@layout/fragment_rules" />
 </navigation>

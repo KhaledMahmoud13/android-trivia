@@ -1,4 +1,4 @@
-package com.example.testapp
+package com.khaled.androidtrivia
 
 import org.junit.Test
 

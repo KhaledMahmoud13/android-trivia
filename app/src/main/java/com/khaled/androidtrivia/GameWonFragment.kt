@@ -1,7 +1,6 @@
-package com.example.testapp
+package com.khaled.androidtrivia
 
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
@@ -10,7 +9,7 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.testapp.databinding.FragmentGameWonBinding
+import com.khaled.androidtrivia.databinding.FragmentGameWonBinding
 
 class GameWonFragment : Fragment() {
 

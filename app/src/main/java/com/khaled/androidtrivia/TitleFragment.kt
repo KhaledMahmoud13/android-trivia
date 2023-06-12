@@ -1,4 +1,4 @@
-package com.example.testapp
+package com.khaled.androidtrivia
 
 import android.os.Bundle
 import android.view.*
@@ -7,7 +7,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.onNavDestinationSelected
-import com.example.testapp.databinding.FragmentTitleBinding
+import com.khaled.androidtrivia.databinding.FragmentTitleBinding
 
 class TitleFragment : Fragment() {
 

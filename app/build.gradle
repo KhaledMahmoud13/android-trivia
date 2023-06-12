@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.testapp"
+        applicationId "com.khaled.androidtrivia"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -34,7 +34,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    namespace 'com.example.testapp'
+    namespace 'com.khaled.androidtrivia'
 }
 
 dependencies {

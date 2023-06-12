@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.android.navigation.GameFragment">
+    tools:context="com.khaled.android.navigation.GameFragment">
 
     <data>
 
         <variable
             name="game"
-            type="com.example.testapp.GameFragment" />
+            type="com.khaled.androidtrivia.GameFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
